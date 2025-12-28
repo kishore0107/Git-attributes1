@@ -1,0 +1,56 @@
+System Files: OS-specific metadata that clutters the repo.
+
+Plaintext
+
+.DS_Store          # macOS specific
+Thumbs.db          # Windows specific
+desktop.ini        # Windows specific
+Logs & Temp Files: Files generated while the app is running.
+
+Plaintext
+
+*.log              # All log files
+*.tmp              # Temporary files
+*.swp              # Vim swap files
+Secrets & Environment Variables: Critical for security.
+
+Plaintext
+
+.env               # Local environment variables
+.env.local
+*.pem              # Private keys/certificates
+credentials.json   # API credentials
+2. Language-Specific Files
+Depending on your tech stack, you should ignore dependency folders and build artifacts.
+
+JavaScript / Node.js
+Plaintext
+
+node_modules/       # Downloaded packages (too large to track)
+dist/               # Build output
+build/              # Build output
+.npm/               # npm cache
+Python
+Plaintext
+
+__pycache__/        # Compiled Python files
+*.py[cod]           # Bytecode
+venv/               # Virtual environment
+.venv/
+.pytest_cache/      # Testing cache
+Java
+Plaintext
+
+*.class             # Compiled bytecode
+*.jar               # Packaged archives
+*.war
+target/             # Maven build directory
+build/              # Gradle build directory
+C / C++
+Plaintext
+
+*.o                 # Object files
+*.obj
+*.exe               # Executables
+*.out
+*.so                # Shared libraries
